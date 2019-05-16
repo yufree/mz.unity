@@ -6,7 +6,13 @@
 \usage{
 expandGraph(mat, cols.from = "^B$|^B.", cols.to = "^A$|^A.")
 }
+\arguments{
+\item{mat}{matrix}
+
+\item{cols.from}{regular expression}
+
+\item{cols.to}{regular expression}
+}
 \description{
 Turns a mz.unity relationship output into a graph structured data.frame.
 }
-

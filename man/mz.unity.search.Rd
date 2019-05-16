@@ -4,8 +4,8 @@
 \alias{mz.unity.search}
 \title{Perform a combinatorial search for peak relationships in mass spectral data.}
 \usage{
-mz.unity.search(A, B, M, ppm, BM.limits = cbind(M.min = c(0, 0, 0), M.max =
-  c(0, 1, 3), B.n = c(1, 2, 3)))
+mz.unity.search(A, B, M, ppm, BM.limits = cbind(M.min = c(0, 0, 0), M.max
+  = c(0, 1, 3), B.n = c(1, 2, 3)))
 }
 \arguments{
 \item{A}{Matrix containing columns named "m" and "z".  Column "m" is an exact mass. Column "z" is an integer charge.}
@@ -30,6 +30,5 @@ This function encapsulates the combinatorial search for simple and complex peak 
 Several sets of granular formula are included by default.  They include isotopes (\code{M.iso}), charge carriers (\code{M.z}), and neutral formula (\code{M.n}).  These can be combined or extended to build a search for any set of relationships. It is generally useful to keep the set of granular formula in small groups appropriate for the combinatorial depth.  For example, isotopes generally require only a single step, whereas we may want to search for cross-polarity relationships which require the exchange of two or more charge carriers.
 }
 \seealso{
-See \url{https://github.com/nathaniel-mahieu/mz-unity} for examples. \code{\link[mz-unity.graph]} \code{\link[mz-unity.specgraph]}
+See \url{https://github.com/nathaniel-mahieu/mz-unity} for examples. \code{\link{unity.graph}} \code{\link{unity.specgraph}}
 }
-

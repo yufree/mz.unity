@@ -27,4 +27,3 @@ A ggplot object contianing the plot.
 \seealso{
 See \url{https://github.com/nathaniel-mahieu/mz-unity} for examples.
 }
-
